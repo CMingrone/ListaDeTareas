@@ -1,0 +1,14 @@
+.task {
+    background-color: rgba(89, 146, 72, 0.397);
+    margin: 5px;
+    padding: 30px 30px;
+    cursor: pointer;
+}
+.task.reminder{
+    border-left : 5px solid rgb(245, 227, 68);
+}
+.task h3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
